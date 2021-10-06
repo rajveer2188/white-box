@@ -13,7 +13,9 @@ function draw()
   background("black");
 
 if(keyIsDown(RIGHT_ARROW))
-{
+{ 
+  background("cyan");
+
 ball.x = ball.x+2
 }
 
